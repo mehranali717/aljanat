@@ -1,0 +1,15 @@
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover,
+.active {
+    background-color: #2e374a;
+}

@@ -5,3 +5,6 @@
     border-radius: 0px 20px 20px 0px;
     flex: 1;
 }
+.category {
+    color: var(--textSoft);
+}
