@@ -1,0 +1,7 @@
+.container {
+    padding: 20px;
+    background-color: var(--bgSoft);
+    height: 100vh;
+    border-radius: 0px 20px 20px 0px;
+    flex: 1;
+}

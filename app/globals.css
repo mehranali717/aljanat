@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+:root {
+  --bg: #151c2c;
+  --bgSoft: #1c263b;
+  --text: #fff;
+  --textSoft: #b7bac1;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
