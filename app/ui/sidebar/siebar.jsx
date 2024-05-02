@@ -1,6 +1,14 @@
 import { MenuLinks } from "..";
 import styles from "./sidebar.module.css";
-import { MdContacts, MdDashboard, MdHelpCenter, MdMoney, MdReport, MdSettings } from "react-icons/md";
+import {
+  Md360,
+  MdAttachMoney,
+  MdContacts,
+  MdDashboard,
+  MdHelpCenter,
+  MdReport,
+  MdSettings,
+} from "react-icons/md";
 const menuItems = [
   {
     title: "Pages",
@@ -9,10 +17,22 @@ const menuItems = [
         title: "Dashboard",
         path: "/dashboard",
         icon: <MdDashboard />,
+        list: [
+          {
+            title: "Buy",
+            path: "/dashboard/buy",
+            icon: <Md360 />,
+          },
+          {
+            title: "Rent",
+            path: "/dashboard/rent",
+            icon: <Md360 />,
+          },
+        ],
       },
       {
         title: "Agents",
-        path: "/dashboard/agents",
+        path: "/agents",
         icon: <MdContacts />,
       },
     ],
@@ -23,7 +43,7 @@ const menuItems = [
       {
         title: "Revenue",
         path: "/dashboard/revenue",
-        icon: <MdMoney />,
+        icon: <MdAttachMoney />,
       },
       {
         title: "reports",

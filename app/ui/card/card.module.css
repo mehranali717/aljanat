@@ -1,0 +1,41 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+    max-width: 330px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.img {
+    border-radius: 10px;
+    align-self: center;
+}
+.cost {
+    color: var(--textSoft);
+
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.location {
+    color: var(--textSoft);
+    font-style: italic;
+}
+
+.propertyType {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--textSoft);
+}

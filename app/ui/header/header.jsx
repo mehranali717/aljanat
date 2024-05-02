@@ -6,7 +6,7 @@ const Header = () => {
   const title = pathName[pathName.length-1]
   return (
     <div className={styles.container}>
-      <span className={styles.headTitle}>{title}</span>
+      <span className={styles.headTitle}>{title?title:"Home"}</span>
     </div>
   );
 };

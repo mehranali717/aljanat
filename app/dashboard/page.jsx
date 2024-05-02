@@ -1,8 +1,13 @@
+import { fakeData } from "../fakedata";
+import { Card, styles } from "../ui";
+
 const Dashboard = () => {
   return (
-    <>
-      <h1>Hello from Dashboard</h1>
-    </>
+    <div className={styles.container}>
+      {fakeData.map((item) => (
+        <Card key={item.id} item={item} />
+      ))}
+    </div>
   );
 };
 export default Dashboard;

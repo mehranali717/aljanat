@@ -1,11 +1,5 @@
 .container {
     display: flex;
-    background-color: var(--bg);
     gap: 10px;
-}
-.content {
-    flex: 3;
-}
-.contentInner {
-    padding: 20px;
+    flex-wrap: wrap;
 }
